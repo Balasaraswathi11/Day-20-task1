@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 40rem;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+
+
+.para {
+    text-align: center;
+    font-size: 20px;
+    opacity: 0;                      /*setting the opacity to 0*/
+    transition: opacity 0.1s ease;  /*adding transistion */
+}
+
+.para.show {
+    opacity: 1;                     /*button when clicked it will add a class show and change the opacity to 1*/
+}
