@@ -21,6 +21,9 @@ body {
 
 .para {
     text-align: center;
+    padding-bottom: 40px;
+    padding-left: 20px ;
+    padding-right: 20px;
     font-size: 20px;
     opacity: 0;                      /*setting the opacity to 0*/
     transition: opacity 0.1s ease;  /*adding transistion */
