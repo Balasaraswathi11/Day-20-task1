@@ -1,5 +1,5 @@
 # Promise Tasks
-## Cat-Facts API (https://alexwohlbruck.github.io/cat-facts/)
+## Cat-Facts API (https://alexwohlbruck.github.io/cat-facts/) - under the section `Animals`
 
 - Promise is used to retrieve data & display the necessary things on the webpage.
 - Proper variable & function names are used
