@@ -9,14 +9,23 @@ body {
 
 .card {
     width: 40rem;
+    overflow: hidden;
+    height: 700px;
 }
+.card-body::-webkit-scrollbar {
+   display: none;
+}
+
 
 .button {
     display: flex;
     justify-content: center;
     margin: 30px;
 }
+.card-body {
+    overflow-y: auto; /* Allow vertical scrolling */
 
+}
 
 
 .para {
